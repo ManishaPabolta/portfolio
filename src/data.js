@@ -1,3 +1,4 @@
+
 import {
   Braces,
   Cloud,
@@ -14,6 +15,7 @@ import {
   Terminal,
   Workflow,
 } from 'lucide-react'
+
 import skillForgeImage from './assets/projects/Screenshot 2026-10-30 094830.png'
 import votingSystemImage from './assets/projects/Screenshot 2026-10-30 094908.png'
 import worldRecipeImage from './assets/projects/Screenshot 2026-10-30 094954.png'
@@ -36,7 +38,8 @@ export const profile = {
   email: 'manishapabolta24@navgurukul.org',
   github: 'https://github.com/manishapabolta',
   linkedin: 'https://www.linkedin.com/in/manisha-pabolta2413/',
-  resumeHref: 'https://drive.google.com/file/d/1J5CjIbc7Ph1KQXKmMoHCjq1KVhGPyQB9/view?usp=sharing',
+  resumeHref:
+    'https://drive.google.com/file/d/1J5CjIbc7Ph1KQXKmMoHCjq1KVhGPyQB9/view?usp=sharing',
 }
 
 export const skills = [
@@ -72,8 +75,8 @@ export const projects = [
       'Progress tracking and cleaner learning flow',
       'Responsive UI designed for everyday learners',
     ],
-    github: null,
-    live: null,
+    github: 'https://github.com/ManishaPabolta/learning',
+    live: 'https://learning-amber-six.vercel.app/',
   },
   {
     number: '02',
@@ -90,8 +93,8 @@ export const projects = [
       'Live election state and candidate management',
       'Accessible interface for a smoother decision process',
     ],
-    github: null,
-    live: null,
+    github: 'https://github.com/ManishaPabolta/online-voting-system',
+    live: 'https://online-voting-system-phi-beige.vercel.app/',
   },
   {
     number: '03',
@@ -108,8 +111,8 @@ export const projects = [
       'Fast search and recipe discovery',
       'Responsive layouts with tidy ingredient views',
     ],
-    github: null,
-    live: null,
+    github: 'https://github.com/ManishaPabolta/recipe..',
+    live: 'https://manishapabolta.github.io/recipe../',
   },
   {
     number: '04',
@@ -127,7 +130,7 @@ export const projects = [
       'Polished effects and responsive difficulty tuning',
     ],
     github: null,
-    live: null,
+    live: 'https://birdblaster.netlify.app/',
   },
   {
     number: '05',
@@ -144,10 +147,10 @@ export const projects = [
       'Structured keyboard interactions',
       'Readable UI for fast calculations',
     ],
-    github: null,
-    live: null,
+    github: 'https://github.com/ManishaPabolta/calculator',
+    live: 'https://manishapabolta.github.io/calculator/',
   },
-   {
+  {
     number: '06',
     title: 'FitnessPro AI',
     eyebrow: 'Fitness & wellness',
@@ -157,18 +160,18 @@ export const projects = [
     accent: '#fb7185',
     icon: Code2,
     features: [
-      '- 🔐 User Login & Signup',
-'- 👤 User Profile',
-'- 📊 Fitness Dashboard',
-'- 🏋️ Workout Section',
-'- 🥗 Diet & Nutrition Section',
-'- 🤖 Fitness AI Concept',
-'- 📱 Responsive Design',
-'- 🎨 Clean and User-Friendly Interface',
-'- 🔄 Interactive JavaScript Functionality',
+      '🔐 User Login & Signup',
+      '👤 User Profile',
+      '📊 Fitness Dashboard',
+      '🏋️ Workout Section',
+      '🥗 Diet & Nutrition Section',
+      '🤖 Fitness AI Concept',
+      '📱 Responsive Design',
+      '🎨 Clean and User-Friendly Interface',
+      '🔄 Interactive JavaScript Functionality',
     ],
-    github:"https://github.com/ManishaPabolta/fitness-AI-",
-    live:"https://manishapabolta.github.io/fitness-AI-/",
+    github: 'https://github.com/ManishaPabolta/fitness-AI-',
+    live: 'https://manishapabolta.github.io/fitness-AI-/',
   },
 ]
 
@@ -188,7 +191,19 @@ export const experiences = [
 ]
 
 export const certifications = [
-  { name: 'Responsive Web Design', issuer: 'freeCodeCamp', year: '2024' },
-  { name: 'Frontend Development', issuer: 'Coursera', year: '2024' },
-  { name: 'JavaScript Algorithms', issuer: 'freeCodeCamp', year: '2024' },
+  {
+    name: 'Responsive Web Design',
+    issuer: 'freeCodeCamp',
+    year: '2024',
+  },
+  {
+    name: 'Frontend Development',
+    issuer: 'Coursera',
+    year: '2024',
+  },
+  {
+    name: 'JavaScript Algorithms',
+    issuer: 'freeCodeCamp',
+    year: '2024',
+  },
 ]
